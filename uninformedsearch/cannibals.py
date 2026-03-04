@@ -96,7 +96,7 @@ def depth_limited_dfs(start, goal, limit):
     return None
 
 
-def iterative_deepening_dfs(start, goal, max_depth):
+def iterative_deepening_dfs(start, goal, max_depth=20):
     for depth in range(max_depth + 1):
         result = depth_limited_dfs(start, goal, depth)
         if result is not None:
@@ -130,8 +130,7 @@ elif choice == "3":
     solution = depth_limited_dfs(start_state, goal_state, limit)
 
 elif choice == "4":
-    max_depth = int(input("Enter maximum depth: "))
-    solution = iterative_deepening_dfs(start_state, goal_state, max_depth)
+    solution = iterative_deepening_dfs(start_state, goal_state)
 
 else:
     print("Invalid choice.")
