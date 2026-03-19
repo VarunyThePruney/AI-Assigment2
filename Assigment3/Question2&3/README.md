@@ -13,10 +13,15 @@ Both apps generate a battlefield grid and compute the shortest path from a start
 ### App 1: Basic Battlefield Generator + Path Finder
 
 Run:
+
 pip install streamlit numpy matplotlib pillow streamlit-image-coordinates
+
 &&
+
 streamlit run script_name.py
+
 or
+
 python -m streamlit run script_name.py
 
 Steps:
