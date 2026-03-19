@@ -1,0 +1,5 @@
+file = open('marks.txt', 'a')
+name = input('Enter a name: ')
+age = input('Enter age: ')
+file.write(name + ' ' + age + '\n')
+print("appended")
