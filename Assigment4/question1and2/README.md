@@ -120,8 +120,4 @@ Steps:
 The Map Coloring CSP was successfully implemented for both Australia and Telangana maps.
 The backtracking algorithm ensures that all adjacency constraints are satisfied and produces valid color assignments for both maps.
 
----
 
-## Author
-
-Varun Golakoti
